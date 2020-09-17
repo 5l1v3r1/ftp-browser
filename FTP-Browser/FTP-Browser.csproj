@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>FTP_Browser</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="directory_icon.gif" />
+    <None Remove="file_icon.gif" />
+    <None Remove="Images\copy_icon.png" />
+    <None Remove="Images\directory_icon.png" />
+    <None Remove="Images\file_icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\copy_icon.png" />
+    <Resource Include="Images\directory_icon.gif" />
+    <Resource Include="Images\directory_icon.png" />
+    <Resource Include="Images\file_icon.gif" />
+    <Resource Include="Images\file_icon.png" />
+  </ItemGroup>
+
+</Project>
